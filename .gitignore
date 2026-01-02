@@ -1,0 +1,189 @@
+# Compiled source #
+######################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.out
+*.a
+*.lib
+*.exp
+*.obj
+
+# Precompiled headers
+*.gch
+*.pch
+
+# CMake build directory
+build/
+Build/
+cmake-build-debug/
+cmake-build-release/
+cmake-build-*/
+
+# Visual Studio directories
+.vs/
+.vscode/
+*.vcxproj.user
+*.sln.DotSettings
+
+# Xcode directories
+build/
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+*.xcscheme
+
+# Make directories
+*.make
+
+# Dependencies
+*.d
+
+# Object files
+*.o
+*.obj
+*.ko
+*.elf
+
+# Shared libraries
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# Static libraries
+*.a
+*.lib
+*.la
+*.lo
+
+# Executables
+*.exe
+*.out
+*.app
+*.exe.stackdump
+
+# IDE and Editor specific files
+*.swp
+*.swo
+*~
+.DS_Store
+.AppleDouble
+.LSOverride
+*.sublime-workspace
+*.sublime-project
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.[0-9]
+*.patch
+
+# Test and coverage reports
+coverage/
+*.gcov
+*.gcda
+*.gcno
+test-results.xml
+test_results/
+cov-int/
+reports/
+
+# Doxygen
+docs/html/
+docs/latex/
+docs/man/
+
+# Runtime generated files
+*.log
+*.stackdump
+core
+core.*
+
+# Package managers
+conan/
+vcpkg_installed/
+
+# External dependencies
+third_party/
+external/
+vendor/
+
+# OS-specific files
+Thumbs.db
+.DS_Store
+.directory
+ehthumbs.db
+
+# Backup files
+*.bak
+*.swp
+*.swo
+*~
+*.orig
+
+# Visual Studio Code
+.vscode/
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+
+# Clion
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Ninja build system
+.ninja_deps
+.ninja_log
+
+# Bear project files
+compile_commands.json
+
+# Valgrind
+callgrind.out.*
+
+# Qt specific
+*.pro.user
+*.pro.user.*
+
+# Misc build artifacts
+*.iso
+*.img
+*.tar
+*.tar.gz
+*.zip
+*.rar
+
+# Version control conflict files
+*.orig
+*.BACKUP.*
+*.BASE.*
+*.LOCAL.*
+*.REMOTE.*
+
+# Python cached files (if using Python in build system)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Node modules (if using Node.js build tools)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Package-lock files
+package-lock.json
+yarn.lock
